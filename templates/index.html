@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>index - FlaskDatabaseMinimum</title>
+</head>
+<body>
+    {% if error %}
+        <p>{{ error }}</p>
+    {% endif %}
+    {% if success %}
+        <p>{{ success }}</p>
+    {% endif %}
+    <form action="/" method="post">
+        <p>
+            ログインID:<input type="text" name="loginID"/>
+        </p>
+        <p>
+            パスワード:<input type="password" name="password"/>
+        </p>
+        <input type="submit" value="送信">
+    </form>
+</body>
+</html>
