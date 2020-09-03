@@ -3,6 +3,7 @@
 ## プロジェクトについて
 
 このプロジェクトはFlaskでDB操作(SELECT)をする最小のサンプルです。
+
 DB操作にはFlask-SQLAlchemyを使用しています。
 
 # プロジェクトの取得方法
@@ -29,6 +30,7 @@ $ python app.py
 上記が完了したらブラウザで `http://localhost:5000/` にアクセス
 
 ログインID: a パスワード: a -> Login Error
+
 ログインID: admin パスワード: password -> Login Success admin
 
 ### linux
